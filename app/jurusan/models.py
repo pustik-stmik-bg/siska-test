@@ -18,3 +18,4 @@ class Tahun_Akademik(models.Model):
 	updated_by = models.IntegerField(null=True, blank=True)
 	created_at = models.DateTimeField('Tgl Dibuat', auto_now_add=True)
 	updated_at = models.DateTimeField('Tgl Diubah', auto_now=True)
+	# Komentar Akhir
